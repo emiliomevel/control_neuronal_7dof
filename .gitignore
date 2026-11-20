@@ -34,3 +34,6 @@ firmware/src/nn_config_residual.h
 
 # Experimental data and generated results
 /python/data/
+
+# Host simulation files
+/firmware/host_sim/
