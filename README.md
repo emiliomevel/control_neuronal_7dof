@@ -85,11 +85,11 @@ Los módulos restantes contienen los controladores, la interfaz de CoppeliaSim, 
 
 ### Hardware embebido
 
-- NXP S32K312 mini-EVB (utilizado en las pruebas) o S32K344 compatible con el firmware.
+- NXP S32K312 mini-EVB (utilizado en las pruebas) 
 - Proyecto de S32 Design Studio con RTD y configuración de reloj, pines e interfaz LPUART6.
 - Conexión USB/serie entre la PC y la tarjeta.
 
-> **Importante:** la carpeta `firmware/` contiene los fuentes de la aplicación y el BSP, pero no es un proyecto S32 Design Studio autocontenido. Se debe integrar en un proyecto S32K3 existente que tenga los archivos generados por Config Tools/RTD (`.mex`, configuración de Clock, SIUL2, IntCtrl y LPUART). En este repositorio no se incluyen esos metadatos generados.
+> **Importante:** la carpeta `firmware/` contiene los fuentes de la aplicación y el BSP, pero no es un proyecto S32 Design Studio autocontenido. Se debe integrar en un proyecto S32K3 existente que tenga los archivos generados por Config Tools/RTD (`.mex`, configuración de Clock, SIUL2, IntCtrl y LPUART). 
 
 ---
 
