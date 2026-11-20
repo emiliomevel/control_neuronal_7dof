@@ -503,8 +503,4 @@ Para reutilizar los resultados ya guardados, no es necesario repetir el entrenam
 
 El modo residual (`objetivo=residual`) está soportado por los scripts como una extensión. Cambiar a residual requiere volver a preprocesar, entrenar el objetivo correspondiente y generar/compilar los encabezados con ese mismo objetivo. No mezclar `nn_config.h`, `nn_weights.h`, normalización ni modelos de objetivos diferentes.
 
----
 
-## 14. Licencia y citas
-
-Agregar aquí la licencia del proyecto y las referencias académicas/técnicas que correspondan antes de publicar el repositorio. No se declara una licencia de uso en este README.
