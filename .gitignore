@@ -1,0 +1,33 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# S32 Design Studio - compilaciones
+Debug/
+Release/
+build/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.siz
+*.list
+
+# Archivos temporales
+*.tmp
+*.log
+
+
+# Local backup configuration
+firmware/src/nn_config_residual.h
